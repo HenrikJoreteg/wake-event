@@ -17,7 +17,7 @@ wakeEvent(function () {
 });
 ```
 
-If you're not using a module system like CommonJS, just include the bundle file.
+If you're not using a module system at all, use [Alex's jQuery plugin](https://gist.github.com/maccman/5944646) or just include the bundle file by itself.
 
 ```html
 <script src="wake-event.bundle.js"></script>
